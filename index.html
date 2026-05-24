@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <!-- Encabezado de Camilo -->
+        
+        </header>
+        
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="index.html">Inicio 💼</a>
+                <a href="#" onclick="toggleChat()">Contacto 💬</a>
+            </div>
+        </nav>
+        
+        <section class="studies">
+            <h2>Formación Académica</h2>
+            <div class="studies-container">
+                <div class="study-card">
+                    <h3>Ingeniería de Sistemas</h3>
+                    <p>Universidad Nacional</p>
+                    <p>2021 - 2025</p>
+                </div>
+        
+                <div class="study-card">
+                    <h3>Desarrollo Web Frontend</h3>
+                    <p>Curso - Google Career Certificates</p>
+                    <p>2024</p>
+                </div>
+        
+                <div class="study-card">
+                    <h3>Fundamentos de Programación</h3>
+                    <p>Microsoft Learn</p>
+                    <p>2023</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="chatBox" class="chat-box">
+            <div class="chat-header">
+                🤖 Hoola! ¿Quieres contactarme?
+                <span onclick="toggleChat()">×</span>
+            </div>
+            <div id="chatBody" class="chat-body">
+                <div class="msg bot">Déjame tu correo y en breve me comunico. Muchas gracias </div>
+            </div>
+            <div class="chat-input">
+                <input type="email" id="userInput" placeholder="Escribe tu correo ...">
+                <button>Enviar</button>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <p>© 2026 - Hoja de Vida | Diseñado por Angélica y Camilo</p>
+        <p>Hecho con HTML y CSS </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
