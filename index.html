@@ -11,11 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
@@ -26,6 +22,7 @@
             <nav class="navbar">
             <div class="nav-links">
                 <a href="index.html">Inicio 💼</a>
+                <a href="recorrido.html">Recorrido 🚀</a>
                 <a href="#" onclick="toggleChat()">Contacto 💬</a>
             </div>
         </nav>
@@ -55,30 +52,42 @@
         
         </header>
         
-        
-        
-        <section class="studies">
-            <h2>Formación Académica</h2>
-            <div class="studies-container">
-                <div class="study-card">
-                    <h3>Ingeniería de Sistemas</h3>
-                    <p>Universidad Nacional</p>
-                    <p>2021 - 2025</p>
-                </div>
-        
-                <div class="study-card">
-                    <h3>Desarrollo Web Frontend</h3>
-                    <p>Curso - Google Career Certificates</p>
-                    <p>2024</p>
-                </div>
-        
-                <div class="study-card">
-                    <h3>Fundamentos de Programación</h3>
-                    <p>Microsoft Learn</p>
-                    <p>2023</p>
-                </div>
-            </div>
-        </section>
+<section class="studies">
+    <h2>Formación Académica</h2>
+
+    <div class="studies-container">
+        <div class="study-card">
+            <h3>Ingeniería de Sistemas</h3>
+            <p>Universidad Nacional</p>
+            <p>2021 - 2025</p>
+        </div>
+        <div class="study-card">
+            <h3>Introducción a Cloud Computing</h3>
+            <p>AWS Academy</p>
+            <p>2025</p>
+        </div>
+        <div class="study-card">
+            <h3>Desarrollo Web</h3>
+            <p>Google Career Certificates</p>
+            <p>2024</p>
+        </div>
+        <div class="study-card">
+            <h3>Fundamentos de Python</h3>
+            <p>Microsoft Learn</p>
+            <p>2023</p>
+        </div>
+        <div class="study-card">
+            <h3>Diseño UX/UI</h3>
+            <p>Coursera</p>
+            <p>2024</p>
+        </div>
+        <div class="study-card">
+            <h3>Fotografía Digital</h3>
+            <p>Domestika</p>
+            <p>2023</p>
+        </div>
+    </div>
+</section>
 
         <section class="Hobbies">
             <h2>Gustos y Hobbies</h2>
@@ -106,14 +115,19 @@
 
         <div id="chatBox" class="chat-box">
             <div class="chat-header">
-                🤖 Hoola! ¿Quieres contactarme?
+                <div class="chat-title">
+                    🐱 SofiBot
+                    <small>Asistente virtual</small>
+                </div>
                 <span onclick="toggleChat()">×</span>
             </div>
-            <div id="chatBody" class="chat-body">
-                <div class="msg bot">Déjame tu correo y en breve me comunico. Muchas gracias </div>
+            <div class="msg bot">
+                Hola
+                Soy SofiBot 🐾
+                Déjame tu correo y pronto Sofía se comunicará contigo.
             </div>
             <div class="chat-input">
-                <input type="email" id="userInput" placeholder="Escribe tu correo ...">
+                <input type="email" placeholder="Escribe tu correo ...">
                 <button>Enviar</button>
             </div>
         </div>
