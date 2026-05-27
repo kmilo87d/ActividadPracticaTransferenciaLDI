@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorrido Laboral</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="index.html">Inicio 💼</a>
+                <a href="perfil.html">Perfil Tecnológico 💻</a>
+                <a href="#" onclick="toggleChat()">Contacto 💬</a>
+            </div>
+
+        </nav>
+
+        <section class="skills">
+            <h2>Habilidades Técnicas</h2>
+
+            <div class="skill">
+                <p>HTML & CSS</p>
+                <div class="barra">
+                    <div class="progreso html">90%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="barra">
+                    <div class="progreso js">75%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Python</p>
+                <div class="barra">
+                    <div class="progreso python">80%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Diseño UX/UI</p>
+                <div class="barra">
+                    <div class="progreso ux">85%</div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="languages">
+            <h2>Idiomas</h2>
+
+            <div class="language-box">
+                <p>🇪🇸 Español — Nativo</p>
+                <p>🇺🇸 Inglés — B2</p>
+                <p>🇧🇷 Portugués — Básico</p>
+            </div>
+        </section>
+
+        <div id="chatBox" class="chat-box">
+
+            <div class="chat-header">
+                <div class="chat-title">
+                    🐱 SofiBot
+                    <small>Asistente virtual</small>
+                </div>
+                <span onclick="toggleChat()">×</span>
+            </div>
+            <div class="msg bot">
+                Hola 
+                Soy SofiBot 🐾
+                Déjame tu correo y pronto Sofía se comunicará contigo.
+            </div>
+            <div class="chat-input">
+                <input type="email" placeholder="Escribe tu correo ...">
+                <button>Enviar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 - Hoja de Vida | Diseñado por Angélica y Camilo</p>
+        <p>Hecho con HTML y CSS</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
