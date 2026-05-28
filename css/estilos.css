@@ -34,6 +34,7 @@
     font-size: 25px;
     font-family:"Dancing Script",sans-serif;
 }
+
 .chat-box {
     position: fixed;
     bottom: 90px;
@@ -446,7 +447,15 @@ font-family: "Sedan", serif;
     background: #f4f8ff;
     padding: 25px;
     border-radius: 20px;
-    font-family: "Sedan", serif;
     box-shadow: 0 5px 15px rgba(0,0,0,0.12);
     line-height: 2;
+}
+
+.language-box p{
+    font-family: "Sedan", serif;
+    font-size: 20px;
+}
+
+.flag{
+    font-family: "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
 }
